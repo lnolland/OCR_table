@@ -40,7 +40,7 @@ CYScan/
 
 ### 1. Cloner le dépôt
 ```bash
-git clone https://github.com/votre-utilisateur/CYScan.git
+git clone https://github.com/lnolland/OCR_table
 cd CYScan
 ```
 
