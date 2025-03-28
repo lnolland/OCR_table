@@ -44,17 +44,12 @@ git clone https://github.com/lnolland/OCR_table
 cd CYScan
 ```
 
-### 2. Installer les dépendances
-```bash
-pip install -r requirements.txt
-```
-
 Assurez-vous d’avoir installé **Poppler** et de bien configurer le chemin dans `extractz.py` :
 ```python
 os.environ["PATH"] += os.pathsep + r"H:\\poppler-24.08.0\\Library\\bin"
 ```
 
-### 3. Lancer l’application
+### 2. Lancer l’application
 ```bash
 python app.py
 ```
@@ -80,7 +75,4 @@ Puis ouvrir [http://127.0.0.1:5000](http://127.0.0.1:5000) dans votre navigateur
 Projet universitaire réalisé dans le cadre du semestre CY Tech 2025.
 
 ---
-
-## 📄 Licence
-Ce projet est destiné à un usage éducatif uniquement.
 
